@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai 9</title>
+</head>
+<body>
+<script>
+function checkCharacters() {
+    let arr = ['v','i','n','h','h','u','n','g'];
+    let character = prompt('input a string: ');
+    let count =0;
+    for(let i=0; i<arr.length; i++) {
+        if (character === arr[i]) {
+        count++;
+        return count;
+        }else{
+            return -1;
+        }
+    }
+}console.log(checkCharacters());
+
+</script>
+</body>
+</html>
